@@ -50,7 +50,11 @@ class App extends Component {
     })
 
     return (isPending) ?
-      <h1 className="tc f1">Loading...</h1>
+      <div className="tc">
+        <Header />
+        <br />
+        <h1 className="f3">Loading...</h1>
+      </div>
       :
       (
         <div className="tc">
