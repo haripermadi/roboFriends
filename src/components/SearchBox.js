@@ -1,6 +1,7 @@
 import React from 'react'
 
 const SearchBox = ({ search, searchChange }) => {
+  console.log('scrollbox')
   return (
     <div className="pa2">
       <input
